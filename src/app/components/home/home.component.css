@@ -1,0 +1,25 @@
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#searchBar{
+
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #1f3746;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+
+}

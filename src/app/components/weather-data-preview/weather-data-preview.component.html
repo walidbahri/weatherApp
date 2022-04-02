@@ -1,0 +1,20 @@
+<div class="weather-card container col-md-5" *ngIf="weather.location.name">
+
+
+  <div class="col-md-5 weather-info">
+    <p>{{weather.location.name}}</p>
+    <p>{{weather.location.localtime | date: 'EEEE, MMMM d, y'}} </p>
+    <h1>{{ weather.current.temperature }} °C</h1>
+
+
+  </div>
+
+  <div class="col-md-6 weather-description">
+    <ul class="list-location">
+      <li>{{weather.current.weather_descriptions[0]}}</li>
+      <li class="list">Wind: {{ weather.current.wind_speed }} kmph</li>
+      <li class="list">Humidity: {{ weather.current.humidity }} %</li>
+      <li class="list"><img [src]="weather.current.weather_icons[0]"></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+.weather-card{
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 5px #c9d5ff;
+    background-color: #16394c;
+    border: 3px solid #608094;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-location{
+    list-style: none;
+}
+.weather-info{
+   
+  
+}
+.weather-description
+{ 
+    background: rgba(0,0,0,0.1);}

@@ -1,0 +1,15 @@
+<div class="weather-location row justify-content-center" *ngIf="weather.location.name">
+  <div class="location-info col-12 col-md-10 col-lg-8">
+
+    <p class="card-text">{{ weather.location.name }},{{ weather.location.region }} , {{ weather.location.country }} </p>
+
+
+    <button type="button" class="btn btn-bookmarked" (click)="addBookmarked()">
+      <span class="btn-label"><i class="fa fa-bookmark"></i></span></button>
+
+
+  </div>
+  <div class="bookMarked" *ngIf="bookmarked.length">
+    <app-bookmarked-locations [bookmarked]="bookmarked"></app-bookmarked-locations>
+  </div>
+</div>

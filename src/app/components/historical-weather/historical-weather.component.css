@@ -1,0 +1,15 @@
+.weather-historical-card {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-info-historical{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3268a5;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    margin: 25px auto;
+}

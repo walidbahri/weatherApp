@@ -1,0 +1,18 @@
+.bookmarkedlist{
+    list-style: none;
+}
+
+.bookmarkedItem{
+    background: #152e4a;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.markedList{
+    display: flex;
+    justify-content: center;
+}

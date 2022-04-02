@@ -1,0 +1,16 @@
+<div class="weather-historical-card container " *ngIf="weather.location.name">
+
+
+    <div class="col-md-5 weather-info-historical">
+        <label>{{this.weather.historical[this.lastFirstDay].date | date: 'EEEE, MMMM d, y'}} </label>
+        <label>{{weather.location.name}}</label>
+     
+  <label> Max:<span>{{this.weather.historical[this.lastFirstDay].maxtemp }} °C</span></label>
+  <label> Min:<span>{{this.weather.historical[this.lastFirstDay].mintemp }} °C</span></label>
+  
+  
+    </div>
+  
+   
+  </div>
+  
